@@ -1,0 +1,939 @@
+/nethome/1537741/miniconda3/envs/deep_learning/lib/python3.11/site-packages/torchvision/io/image.py:13: UserWarning: Failed to load image Python extension: 'libc10_cuda.so: cannot open shared object file: No such file or directory'If you don't plan on using image functionality from `torchvision.io`, you can ignore this warning. Otherwise, there might be something wrong with your environment. Did you have `libjpeg` or `libpng` installed before building `torchvision` from source?
+  warn(
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:02<00:06,  2.28s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:04<00:04,  2.13s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:06<00:02,  2.08s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:06<00:00,  1.44s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:06<00:00,  1.69s/it]
+It looks like you are trying to rescale already rescaled images. If the input images have pixel values between 0 and 1, set `do_rescale=False` to avoid rescaling them again.
+sanity check is not passed!
+3
+max_score_word
+▁provided
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+not provided in the image.
+sanity check is not passed!
+13
+max_score_word
+▁provided
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+not provided in the image.
+sanity check is not passed!
+14
+max_score_word
+▁provided
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+not provided in the question.
+sanity check is not passed!
+15
+max_score_word
+▁provided
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+not provided in the image.
+sanity check is not passed!
+17
+max_score_word
+▁cardinal
+class_predicted
+A
+generated_text[1]
+ 
+generated_text
+a cardinal visiting a platform feeder with sunflower seeds.
+sanity check is not passed!
+21
+max_score_word
+▁provided
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+not provided in the image.
+sanity check is not passed!
+35
+max_score_word
+▁provided
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+not provided in the passage.
+sanity check is not passed!
+41
+max_score_word
+</s>
+class_predicted
+A
+generated_text[1]
+e
+generated_text
+weather
+sanity check is not passed!
+42
+max_score_word
+</s>
+class_predicted
+A
+generated_text[1]
+e
+generated_text
+weather
+sanity check is not passed!
+45
+max_score_word
+▁provided
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+not provided in the passage.
+sanity check is not passed!
+67
+max_score_word
+▁provided
+class_predicted
+B
+generated_text[1]
+o
+generated_text
+not provided in the passage.
+sanity check is not passed!
+68
+max_score_word
+▁provided
+class_predicted
+B
+generated_text[1]
+o
+generated_text
+not provided in the given passage.
+sanity check is not passed!
+69
+max_score_word
+▁provided
+class_predicted
+B
+generated_text[1]
+o
+generated_text
+not provided in the passage.
+sanity check is not passed!
+74
+max_score_word
+</s>
+class_predicted
+A
+generated_text[1]
+e
+generated_text
+yes
+sanity check is not passed!
+93
+max_score_word
+.
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+no.
+sanity check is not passed!
+97
+max_score_word
+▁Robert
+class_predicted
+B
+generated_text[1]
+ 
+generated_text
+: Robert's experiment can best answer the question of whether steel nails rust in fewer days when submerged in a large volume of liquid compared to a small volume.
+sanity check is not passed!
+134
+max_score_word
+c
+class_predicted
+A
+generated_text[1]
+c
+generated_text
+(c) cougar
+sanity check is not passed!
+136
+max_score_word
+c
+class_predicted
+A
+generated_text[1]
+c
+generated_text
+(c) cougar
+sanity check is not passed!
+157
+max_score_word
+▁It
+class_predicted
+B
+generated_text[1]
+ 
+generated_text
+: It took the nails in the water test tubes longer to rust than the nails in the vinegar test tubes.
+sanity check is not passed!
+161
+max_score_word
+</s>
+class_predicted
+A
+generated_text[1]
+e
+generated_text
+yes
+sanity check is not passed!
+163
+max_score_word
+▁provided
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+not provided in the image.
+sanity check is not passed!
+170
+max_score_word
+</s>
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+no
+sanity check is not passed!
+173
+max_score_word
+▁provided
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+not provided in the question.
+sanity check is not passed!
+200
+max_score_word
+▁dr
+class_predicted
+B
+generated_text[1]
+ 
+generated_text
+a drone with blade guards.
+sanity check is not passed!
+212
+max_score_word
+</s>
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+no
+sanity check is not passed!
+213
+max_score_word
+▁possible
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+not possible to determine based on the information provided.
+sanity check is not passed!
+214
+max_score_word
+</s>
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+no
+sanity check is not passed!
+241
+max_score_word
+</s>
+class_predicted
+A
+generated_text[1]
+e
+generated_text
+yes
+sanity check is not passed!
+249
+max_score_word
+</s>
+class_predicted
+A
+generated_text[1]
+e
+generated_text
+yes
+sanity check is not passed!
+252
+max_score_word
+▁clear
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+not clear from the image provided.
+sanity check is not passed!
+277
+max_score_word
+▁provided
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+not provided in the image.
+sanity check is not passed!
+278
+max_score_word
+▁provided
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+not provided in the image.
+sanity check is not passed!
+292
+max_score_word
+</s>
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+no
+sanity check is not passed!
+293
+max_score_word
+</s>
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+no
+sanity check is not passed!
+294
+max_score_word
+</s>
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+no
+sanity check is not passed!
+295
+max_score_word
+</s>
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+no
+sanity check is not passed!
+296
+max_score_word
+</s>
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+no
+sanity check is not passed!
+315
+max_score_word
+</s>
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+no
+sanity check is not passed!
+316
+max_score_word
+</s>
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+no
+sanity check is not passed!
+329
+max_score_word
+▁Zach
+class_predicted
+B
+generated_text[1]
+ 
+generated_text
+: Zachary's experiment can best answer the question: "Do steel nails rust in fewer days when submerged in a large volume of liquid compared to a small volume?"
+sanity check is not passed!
+334
+max_score_word
+▁clear
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+not clear
+sanity check is not passed!
+335
+max_score_word
+▁provided
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+not provided
+sanity check is not passed!
+336
+max_score_word
+▁given
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+not given
+sanity check is not passed!
+337
+max_score_word
+▁provided
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+not provided
+sanity check is not passed!
+338
+max_score_word
+▁provided
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+not provided
+sanity check is not passed!
+342
+max_score_word
+▁provided
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+not provided in the question.
+sanity check is not passed!
+344
+max_score_word
+▁The
+class_predicted
+B
+generated_text[1]
+ 
+generated_text
+: The experiment can best answer the question of whether steel nails rust in fewer days when submerged in a large volume of liquid compared to a small volume.
+sanity check is not passed!
+358
+max_score_word
+▁clear
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+not clear from the image.
+sanity check is not passed!
+360
+max_score_word
+▁The
+class_predicted
+B
+generated_text[1]
+ 
+generated_text
+: The experiment can best answer the question "Do steel nails rust in fewer days when submerged in a large volume of liquid compared to a small volume?"
+sanity check is not passed!
+361
+max_score_word
+▁It
+class_predicted
+B
+generated_text[1]
+ 
+generated_text
+: It took the nails in the water test tubes longer to rust than the nails in the vinegar test tubes.
+sanity check is not passed!
+367
+max_score_word
+▁solid
+class_predicted
+B
+generated_text[1]
+ 
+generated_text
+a solid.
+sanity check is not passed!
+368
+max_score_word
+▁solid
+class_predicted
+A
+generated_text[1]
+ 
+generated_text
+a solid.
+sanity check is not passed!
+380
+max_score_word
+▁provided
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+not provided in the question.
+sanity check is not passed!
+381
+max_score_word
+▁provided
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+not provided in the question.
+sanity check is not passed!
+382
+max_score_word
+▁provided
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+not provided in the question.
+sanity check is not passed!
+383
+max_score_word
+▁provided
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+not provided in the question.
+sanity check is not passed!
+384
+max_score_word
+▁provided
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+not provided in the question.
+sanity check is not passed!
+424
+max_score_word
+olog
+class_predicted
+B
+generated_text[1]
+o
+generated_text
+homologous structures.
+sanity check is not passed!
+425
+max_score_word
+▁wh
+class_predicted
+B
+generated_text[1]
+ 
+generated_text
+a whale.
+sanity check is not passed!
+455
+max_score_word
+▁rad
+class_predicted
+B
+generated_text[1]
+ 
+generated_text
+a radish plant in soil.
+sanity check is not passed!
+456
+max_score_word
+.
+class_predicted
+A
+generated_text[1]
+.
+generated_text
+B. The thick fur makes them look older.
+sanity check is not passed!
+463
+max_score_word
+.
+class_predicted
+B
+generated_text[1]
+o
+generated_text
+no.
+sanity check is not passed!
+475
+max_score_word
+</s>
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+no
+sanity check is not passed!
+476
+max_score_word
+</s>
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+no
+sanity check is not passed!
+477
+max_score_word
+</s>
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+no
+sanity check is not passed!
+481
+max_score_word
+▁provided
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+not provided in the question.
+sanity check is not passed!
+514
+max_score_word
+▁provided
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+not provided in the image.
+sanity check is not passed!
+516
+max_score_word
+os
+class_predicted
+C
+generated_text[1]
+o
+generated_text
+logos (reason).
+sanity check is not passed!
+528
+max_score_word
+▁Zach
+class_predicted
+B
+generated_text[1]
+ 
+generated_text
+: Zach's experiment can best answer the question of whether steel nails rust in fewer days when submerged in a large volume of liquid compared to a small volume.
+sanity check is not passed!
+536
+max_score_word
+▁provided
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+not provided in the question.
+sanity check is not passed!
+538
+max_score_word
+</s>
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+no
+sanity check is not passed!
+568
+max_score_word
+▁provided
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+not provided in the image.
+sanity check is not passed!
+570
+max_score_word
+▁provided
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+not provided in the passage.
+sanity check is not passed!
+577
+max_score_word
+▁provided
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+not provided in the image.
+sanity check is not passed!
+608
+max_score_word
+</s>
+class_predicted
+C
+generated_text[1]
+o
+generated_text
+no
+sanity check is not passed!
+618
+max_score_word
+▁provided
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+not provided in the question.
+sanity check is not passed!
+629
+max_score_word
+▁possible
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+not possible as the image is not clear enough to determine the elevation of the mountains.
+sanity check is not passed!
+637
+max_score_word
+</s>
+class_predicted
+C
+generated_text[1]
+o
+generated_text
+no
+sanity check is not passed!
+638
+max_score_word
+▁visible
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+not visible
+sanity check is not passed!
+641
+max_score_word
+.
+class_predicted
+A
+generated_text[1]
+.
+generated_text
+B. Mae Jemison wanted to travel to outer space.
+sanity check is not passed!
+642
+max_score_word
+▁provided
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+not provided in the passage.
+sanity check is not passed!
+662
+max_score_word
+</s>
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+no
+sanity check is not passed!
+663
+max_score_word
+</s>
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+no
+sanity check is not passed!
+674
+max_score_word
+mus
+class_predicted
+A
+generated_text[1]
+m
+generated_text
+"muscles in the human body."
+sanity check is not passed!
+688
+max_score_word
+▁provided
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+not provided in the question.
+sanity check is not passed!
+692
+max_score_word
+▁provided
+class_predicted
+B
+generated_text[1]
+o
+generated_text
+not provided in the passage.
+sanity check is not passed!
+713
+max_score_word
+.
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+no.
+sanity check is not passed!
+718
+max_score_word
+▁provided
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+not provided in the passage.
+sanity check is not passed!
+732
+max_score_word
+▁provided
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+not provided in the image.
+sanity check is not passed!
+735
+max_score_word
+▁provided
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+not provided in the passage.
+sanity check is not passed!
+736
+max_score_word
+▁provided
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+not provided in the passage.
+sanity check is not passed!
+737
+max_score_word
+▁provided
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+not provided in the passage.
+sanity check is not passed!
+738
+max_score_word
+▁provided
+class_predicted
+A
+generated_text[1]
+o
+generated_text
+not provided in the passage.
+Traceback (most recent call last):
+  File "/science-nfs-sys/vsm01/users/1537741/msthesis/IB_SQA_colab_ver.py", line 129, in <module>
+    log_info["second generated_text"] = generated_text[1]
+                                        ~~~~~~~~~~~~~~^^^
+IndexError: string index out of range
